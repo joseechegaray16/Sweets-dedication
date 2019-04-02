@@ -1,0 +1,129 @@
+body {
+    background-color: salmon;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.piggy {
+    display: block;
+    margin: auto;
+    box-shadow: 2px 2px 6px 6px chocolate;
+}
+
+.video {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 35px;
+    height: 0;
+    overflow: hidden;
+}
+
+.video iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+pre, p, h3, h2 {
+    color: white;
+}
+
+.connect_text {
+    text-align: center;
+    font-family: Gill Sans;
+}
+
+.connect_text pre {
+    font-size: 13px;
+}
+
+.main_text {
+    font-family: Gill Sans;
+    text-align: center;
+}
+
+.visuals_text {
+    font-family: Times;
+}
+
+ul li {
+    list-style-type: none;
+    display: inline;
+    padding: 8px;
+    margin: 0;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+ .about pre {
+     text-align: center;
+     color: white;
+     font-size: 15px;
+     font-family:  Gill Sans;
+ }
+
+ .about {
+     text-align: center;
+     color: white;
+ }
+
+ .menu {
+     text-decoration: none;
+ }
+
+ .reasons a {
+     color: blue;
+     text-decoration: none;
+ }
+
+.clickme {
+     text-align: center;
+     color: black;
+ }
+
+ .clickme2 {
+    text-align: center;
+    color: black;
+ }
+
+ footer {
+     text-align: center;
+ }
+
+.reasons {
+    text-align: center;
+}
+
+.reasons a {
+    color: rgb(31, 148, 216);
+}
+
+.reasons a:hover {
+    color: white;
+}
+
+#HCB_comment_box {
+    box-shadow: 3px 3px 10px 10px chocolate;
+}
+
+ @media screen and (max-width: 768px) {
+     body {
+         background-color: rgba(203, 109, 206, 0.5);
+     }
+
+     .piggy {
+        box-shadow: 2px 2px 6px 6px rgba(203, 109, 206, 0.5);
+     }
+
+     #HCB_comment_box {
+        box-shadow: 3px 3px 10px 10px rgba(203, 109, 206, 0.5);
+    }
+ }
